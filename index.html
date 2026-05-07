@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReplyCX — Scaling Customer Support for BAPS Walk | Run 2026</title>
+  <meta name="description" content="ReplyCX: AI-powered support for the BAPS Charities Walk|Run 2026. Scale your customer conversations without scaling headcount." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ═══ SPONSOR RIBBON ═══ -->
+  <div class="sponsor-ribbon" id="sponsor-ribbon">
+    <span>Proudly Powered by</span>
+    <img src="asset/replycxlogo.png" alt="ReplyCX" class="ribbon-logo" />
+    <span>for BAPS Charities Walk | Run 2026</span>
+  </div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="main-nav" class="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" id="nav-logo">
+        <img src="asset/replycxlogo.png" alt="ReplyCX Logo" class="nav__logo-img" />
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#hero" class="nav__link" data-section="hero">Home</a></li>
+        <li><a href="#features" class="nav__link" data-section="features">AI Features</a></li>
+        <li><a href="#sponsor" class="nav__link" data-section="sponsor">Why ReplyCX?</a></li>
+        <li><a href="#event-info" class="nav__link" data-section="event-info">BAPS Event</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="https://app.reply.cx/signup" target="_blank" rel="noopener" class="nav__cta" id="nav-register-btn">Start Free Trial</a>
+      </div>
+      <button class="nav__hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ MOBILE MENU ═══ -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul class="mobile-menu__links">
+      <li><a href="#hero" class="mobile-menu__link">Home</a></li>
+      <li><a href="#features" class="mobile-menu__link">AI Features</a></li>
+      <li><a href="#sponsor" class="mobile-menu__link">Why ReplyCX?</a></li>
+      <li><a href="#event-info" class="mobile-menu__link">BAPS Event</a></li>
+      <li><a href="https://app.reply.cx/signup" target="_blank" class="mobile-menu__link mobile-menu__link--cta">Start Free Trial</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero" class="hero hero--rcx">
+    <div class="hero__bg">
+      <img src="hero-banner.png" alt="BAPS Walk Run Event" class="hero__bg-img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge-container reveal">
+        <img src="asset/replycxlogo.png" alt="ReplyCX Logo" class="hero__logo-main" />
+        <span class="badge-sep">×</span>
+        <img src="asset/bapslogo.png" alt="BAPS Charities Logo" class="hero__logo-sub" />
+      </div>
+      
+      <h1 class="hero__title" id="hero-title">
+        Scale Customer Talks<br />
+        <span class="hero__title-accent">Without Scaling Headcount</span>
+      </h1>
+      
+      <p class="hero__subtitle" id="hero-subtitle">
+        Multiply your conversations, not your costs. Automate every touch point across <strong>WhatsApp, SMS, and Email</strong> for the BAPS Walk|Run 2026.
+      </p>
+      
+      <div class="hero__actions" id="hero-actions">
+        <a href="https://app.reply.cx/signup" target="_blank" rel="noopener" class="btn btn--primary btn--lg" id="hero-trial-btn">
+          Start Your 14-Day Free Trial
+        </a>
+
+      </div>
+      
+
+    </div>
+    
+
+  </section>
+
+  <!-- ═══ WHY REPLYCX ═══ -->
+  <section id="sponsor" class="sponsor-section reveal">
+    <div class="container">
+      <div class="sponsor-grid">
+        <div class="sponsor-text">
+          <span class="section-header__tag">The AI Studio</span>
+          <h2 class="sponsor-title">Multiply Conversations, <span class="accent-text">Not Costs</span></h2>
+          <p>Drowning in support chaos? See how 100+ teams automated 64% of queries with our AI Studio, unified chat/email/WhatsApp in one dashboard, and freed agents to build genuine customer loyalty.</p>
+          
+          <ul class="sponsor-list">
+            <li><span class="check">✓</span> <strong>No-Code Interface:</strong> Build bots in minutes.</li>
+            <li><span class="check">✓</span> <strong>Omnichannel Management:</strong> One inbox for all channels.</li>
+            <li><span class="check">✓</span> <strong>Smart Automation:</strong> Adaptable AI agents that learn your brand.</li>
+          </ul>
+          
+          <div class="sponsor-actions">
+            <a href="https://reply.cx" target="_blank" class="btn btn--primary">Get Started Now</a>
+          </div>
+        </div>
+        <div class="sponsor-visual">
+          <div class="visual-card" data-tilt>
+            <div class="visual-card__header">
+              <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+            </div>
+            <div class="visual-card__body">
+              <div class="chat-sim">
+                <div class="chat-sim__msg bot">How can I help you with BAPS Walk|Run?</div>
+                <div class="chat-sim__msg user">Where is the event?</div>
+                <div class="chat-sim__msg bot">📍 Heritage Park, Detroit. Free parking available!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ AI FEATURES ═══ -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-header__tag">Features</span>
+        <h2 class="section-header__title">Upscale CX Like Enterprise Giants</h2>
+        <p class="section-header__subtitle">Launch AI agents that learn your brand instantly and conquer your inbox.</p>
+      </div>
+      
+      <div class="features__grid">
+        <div class="feature-card reveal" data-tilt>
+          <div class="feature-card__icon-wrap">🤖</div>
+          <h3 class="feature-card__title">AI Studio</h3>
+          <p class="feature-card__text">Handles 70% of repetitive tickets, order checks, and FAQs instantly.</p>
+          <a href="https://reply.cx/build-ai-agent" class="feature-card__link">Build AI Agent →</a>
+        </div>
+        
+        <div class="feature-card reveal" data-tilt>
+          <div class="feature-card__icon-wrap">💬</div>
+          <h3 class="feature-card__title">Live Chat</h3>
+          <p class="feature-card__text">Seamlessly transition from AI to human agents when complex needs arise.</p>
+          <a href="https://reply.cx/live-chat" class="feature-card__link">Explore Live Chat →</a>
+        </div>
+        
+        <div class="feature-card reveal" data-tilt>
+          <div class="feature-card__icon-wrap">📑</div>
+          <h3 class="feature-card__title">Ticketing</h3>
+          <p class="feature-card__text">Intelligent ticketing system to manage every customer journey without friction.</p>
+          <a href="https://reply.cx/create-ticket" class="feature-card__link">Manage Tickets →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BAPS EVENT INFO ═══ -->
+  <section id="event-info" class="event-info reveal">
+    <div class="container">
+      <div class="event-banner">
+        <div class="event-banner__content">
+          <img src="asset/bapslogo.png" alt="BAPS Charities" class="event-logo-small" />
+          <h2 class="event-title">BAPS Walk|Run 2026 Detroit</h2>
+          <p>Driven by "The Spirit of Service," supporting Health Awareness, Education, and 90+ Local Beneficiaries.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="asset/replycxlogo.png" alt="ReplyCX Logo" class="footer__logo-img" />
+          <p class="footer__tagline">Multiply Conversations, Not Costs.</p>
+        </div>
+        <div class="footer__links">
+          <a href="https://reply.cx/pricing" class="footer__link">Pricing</a>
+          <a href="https://reply.cx/blogs" class="footer__link">Resources</a>
+          <a href="https://reply.cx/contact-us" class="footer__link">Contact</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 ReplyCX. Powered by <a href="https://techalphagroup.com">TechAlpha Group LLC</a>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
